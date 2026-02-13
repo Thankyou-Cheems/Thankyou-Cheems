@@ -14,9 +14,9 @@
 <br/>
 
 [![Email](https://img.shields.io/badge/me@ruikang.wang-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@ruikang.wang)
-[![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruikangwang/)
+[![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8+PC9zdmc+)](https://www.linkedin.com/in/ruikangwang/)
 [![X](https://img.shields.io/badge/@thankyucheems-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/thankyucheems)
-[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=firefoxbrowser&logoColor=white)](https://ruikang.wang)
+[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4=)](https://ruikang.wang)
 
 </div>
 
@@ -66,6 +66,6 @@
 <br/>
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Thankyou-Cheems&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thankyou-Cheems&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Thankyou-Cheems&theme=github_dark" />
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Thankyou-Cheems&theme=github_dark" />
 </div>
