@@ -16,59 +16,58 @@
 
 <br/>
 
+## 🧑‍💻 About Me
+
 ```python
 class RuikangWang:
     role      = "Independent Developer & Open-Source Builder"
     focus     = ["Full Stack", "Machine Learning", "Edge Computing"]
     languages = ["Python", "TypeScript", "Go", "Rust", "C++"]
+    motto     = "Make AI Your Prompt."
 
     def current(self):
         return {
-            "Working on": "AI-native edge-first products",
-            "Learning":   "MLSys & distributed inference",
-            "Running":    "A 9-service bare metal homelab",
+            "🔭 Working on": "AI-native edge-first products",
+            "🌱 Learning":   "MLSys & distributed inference",
+            "🏠 Running":    "A 9-service homelab on bare metal",
+            "💬 Ask me about": "Full stack, DevOps, or War Thunder SB",
         }
 ```
 
 <br/>
 
-### Tech Stack
+## ⚡ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![OpenAI](https://img.shields.io/badge/AI_SDK-412991?style=flat-square&logo=openai&logoColor=white)
+<div align="center">
 
-<br/>
+#### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-### Homelab Status
+#### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-> *Self-hosted services running on bare metal.* (`root@ruikang-server:~# status`)
+#### Backend & Infra
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/CF_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-| Service | Address |
-|:---|:---|
-| Drawnix | [drawnix.ruikang.wang](https://drawnix.ruikang.wang) |
-| OpenList | [openlist.ruikang.wang](https://openlist.ruikang.wang) |
-| Uptime Kuma | [kuma.ruikang.wang](https://kuma.ruikang.wang) |
-| Dozzle | [logs.ruikang.wang](https://logs.ruikang.wang) |
-| Glances | [glances.ruikang.wang](https://glances.ruikang.wang) |
-| Portainer | [pt.ruikang.wang](https://pt.ruikang.wang) |
-| FIUP | [fiup.ruikang.wang](https://fiup.ruikang.wang) |
-| RustDesk | [rd.ruikang.wang](https://rd.ruikang.wang) |
-| Gitsub | [gitsub.ruikang.wang](https://gitsub.ruikang.wang) |
+#### Toolkit
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![OpenAI](https://img.shields.io/badge/AI_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+</div>
 
 <br/>
 
-### Stats
+## 📊 Stats
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thankyou-Cheems/Thankyou-Cheems/output/github-snake-dark.svg" />
