@@ -1,8 +1,15 @@
 <div align="center">
 
+<!-- Dynamic Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Hey+there!+I'm+Ruikang+Wang;Software+is+just+logic+at+scale.;Make+AI+Your+Prompt." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hey+%F0%9F%91%8B+I'm+Ruikang+Wang;Product-Minded.+SDE+%2F+MLE.;Independent+%26+Open-Source+Builder." alt="Typing SVG" />
 </a>
+
+<br/>
+
+*Software is just logic at scale. I think. AI scales.*
+
+**`Make AI Your Prompt.`**
 
 <br/>
 
