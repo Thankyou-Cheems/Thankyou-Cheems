@@ -2,7 +2,7 @@
 
 <!-- Dynamic Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hey+%F0%9F%91%8B+I'm+Ruikang+Wang;Product-Minded.+SDE+%2F+MLE.;Independent+%26+Open-Source+Builder." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=140&lines=Hey+%F0%9F%91%8B+I'm+Ruikang+Wang;Product-Minded.+SDE+%2F+MLE.;Independent+%26+Open-Source+Builder." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -14,32 +14,15 @@
 <br/>
 
 [![Email](https://img.shields.io/badge/me@ruikang.wang-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@ruikang.wang)
-[![GitHub](https://img.shields.io/badge/Thankyou--Cheems-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Thankyou-Cheems)
 [![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruikangwang/)
 [![X](https://img.shields.io/badge/@thankyucheems-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/thankyucheems)
-[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://ruikang.wang)
+[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=firefoxbrowser&logoColor=white)](https://ruikang.wang)
 
 </div>
 
 <br/>
 
-## 🧑‍💻 About Me
 
-```python
-class RuikangWang:
-    role      = "Independent Developer & Open-Source Builder"
-    focus     = ["Full Stack", "Machine Learning", "Edge Computing"]
-    languages = ["Python", "TypeScript", "Go", "Rust", "C++"]
-    motto     = "Make AI Your Prompt."
-
-    def current(self):
-        return {
-            "🔭 Working on": "AI-native edge-first products",
-            "🌱 Learning":   "MLSys & distributed inference",
-            "🏠 Running":    "A 9-service homelab on bare metal",
-            "💬 Ask me about": "Full stack, DevOps, or War Thunder SB",
-        }
-```
 
 <br/>
 
