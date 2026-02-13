@@ -59,19 +59,13 @@
 
 ## 📊 Stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thankyou-Cheems/Thankyou-Cheems/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thankyou-Cheems/Thankyou-Cheems/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Thankyou-Cheems/Thankyou-Cheems/output/github-snake-dark.svg" />
-</picture>
+<div align="center">
+  <img alt="github-snake" src="https://github.com/Thankyou-Cheems/Thankyou-Cheems/raw/output/github-snake-dark.svg" />
+</div>
 
 <br/>
 
-<div align="left">
+<div align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Thankyou-Cheems&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" />
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thankyou-Cheems&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Thankyou-Cheems&color=58A6FF&style=flat-square&label=VIEWS" />
 </div>
