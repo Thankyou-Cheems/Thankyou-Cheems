@@ -4,39 +4,43 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&repeat=true&width=460&height=52&lines=Hi%2C+I%27m+Ruikang+Wang" alt="Typing SVG" />
 </a>
 
-MCS (Fall 2026) | Product-minded SDE / MLE  
-I build full-stack web apps and edge-first AI tooling.  
-Open to Summer 2027 internship opportunities.
-
-<sub><i>Software is just logic at scale.<br/>Make AI your Prompt.</i></sub>
+Incoming CS Master's (Fall 2026) · Open-Source Contributor  
+Interested in **Edge AI Infrastructure** and **Generative UI**.
 
 [![Email](https://img.shields.io/badge/me@ruikang.wang-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@ruikang.wang)
-[![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8+PC9zdmc+)](https://www.linkedin.com/in/ruikangwang/)
+[![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruikangwang/)
 [![X](https://img.shields.io/badge/@thankyucheems-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/thankyucheems)
-[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4=)](https://ruikang.wang)
+[![Portfolio](https://img.shields.io/badge/ruikang.wang-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://ruikang.wang)
 
 </div>
 
-## Featured Projects
+---
 
-- [DirectParty](https://github.com/Thankyou-Cheems/DirectParty): Real-time collaboration experience with adaptive UI patterns and AI-assisted workflow.
-- [NoChatEngine](https://github.com/Thankyou-Cheems/NoChatEngine): Edge-first SDK for context-aware apps on Cloudflare Workers and TypeScript stack.
-- [Bomana](https://github.com/Thankyou-Cheems/Bomana): Python tool integrating game telemetry and API automation.
+## Open-Source Contributions
 
-## Open Source Contributions
+| Project | What I Did | Status |
+|---------|-----------|--------|
+| [beads](https://github.com/steveyegge/beads) `Go` `17.7k⭐` | Migrated doctor maintenance checks from JSONL to Dolt-native storage with fallback ([#2146](https://github.com/steveyegge/beads/pull/2146)) | ✅ Merged |
+| [beads](https://github.com/steveyegge/beads) | Fixed `--yes` flag being ignored during repo fingerprint repair in `doctor --fix` ([#1782](https://github.com/steveyegge/beads/pull/1782)) | ✅ Merged |
+| [beads](https://github.com/steveyegge/beads) | Fixed DB/mtime checks to use sync-worktree JSONL in sync-branch mode ([#1695](https://github.com/steveyegge/beads/pull/1695), closes [#1667](https://github.com/steveyegge/beads/issues/1667)) | ✅ Merged |
+| [antigravity-proxy](https://github.com/yuaotian/antigravity-proxy) `C++` `1.8k⭐` | Added rule-based routing, FakeIP bypass, and a web config tool ([#39](https://github.com/yuaotian/antigravity-proxy/pull/39)) | ✅ Merged |
+| [antigravity-proxy](https://github.com/yuaotian/antigravity-proxy) | Made child-process DLL injection report accurate outcomes with failure reasons ([#52](https://github.com/yuaotian/antigravity-proxy/pull/52)) | 🔵 Open |
+| [EasyTier](https://github.com/EasyTier/EasyTier) `Rust` `10.2k⭐` | Made Magisk route rule idempotent; fixed function-name typo breaking module status ([#1927](https://github.com/EasyTier/EasyTier/pull/1927)) | 🔵 Open |
 
-- [beads](https://github.com/1f408/beads): Contributed to Go CLI implementation and polish.
-- [antigravity-proxy](https://github.com/mrothNET/antigravity-proxy): Contributed Windows build updates for C++ toolchain compatibility.
+## Featured Project
+
+**[Bomana](https://github.com/Thankyou-Cheems/Bomana)** — War Thunder SB 模式计时器与投弹预测工具。Python + Win32 overlay，读取游戏本地 8111 API 实现实时弹道计算、战区导航和 HUD 叠加。带自动更新启动器，DAU ~13。
+
+[![DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=DAU&color=brightgreen)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
+[![App Release](https://img.shields.io/github/v/tag/Thankyou-Cheems/Bomana?sort=semver&filter=v*.*.*-app&label=release)](https://github.com/Thankyou-Cheems/Bomana/releases)
 
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/CF_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/CF_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)
