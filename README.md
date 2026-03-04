@@ -23,7 +23,7 @@ Interested in **Edge AI Infrastructure** and **Generative UI**.
 | [beads](https://github.com/steveyegge/beads) `Go` `17.7k⭐`                       | Migrated doctor maintenance checks from JSONL to Dolt-native storage with fallback ([#2146](https://github.com/steveyegge/beads/pull/2146))                                                    | ✅ Merged |
 | [beads](https://github.com/steveyegge/beads)                                      | Fixed `--yes` flag being ignored during repo fingerprint repair in `doctor --fix` ([#1782](https://github.com/steveyegge/beads/pull/1782))                                                     | ✅ Merged |
 | [beads](https://github.com/steveyegge/beads)                                      | Fixed DB/mtime checks to use sync-worktree JSONL in sync-branch mode ([#1695](https://github.com/steveyegge/beads/pull/1695), closes [#1667](https://github.com/steveyegge/beads/issues/1667)) | ✅ Merged |
-| [EasyTier](https://github.com/EasyTier/EasyTier) `Rust` `10.2k⭐`                 | Made Magisk route rule idempotent; fixed function-name typo breaking module status ([#1927](https://github.com/EasyTier/EasyTier/pull/1927))                                                   | 🔵 Open   |
+| [EasyTier](https://github.com/EasyTier/EasyTier) `Rust` `10.2k⭐`                 | Made Magisk route rule idempotent; fixed function-name typo breaking module status ([#1927](https://github.com/EasyTier/EasyTier/pull/1927))                                                   | ✅ Merged   |
 
 ## Featured Project
 
