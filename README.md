@@ -44,16 +44,16 @@ Contributed reliability and developer-experience improvements to a Go-based stru
 
 ## Featured Project
 
-### [Bomana](https://github.com/Thankyou-Cheems/Bomana) — Real-time desktop telemetry and overlay system
+### [Bomana](https://github.com/Thankyou-Cheems/Bomana) — Real-time desktop gaming telemetry and overlay system
 
-A Windows desktop application that ingests local telemetry streams, maintains persistent runtime state, and renders a low-latency overlay UI for real-time workflows.
+A Windows desktop companion application that reads localized in-game telemetry streams (such as aircraft flight and engine data via standard localhost web APIs), maintains active match states, and renders a low-latency, transparent overlay UI directly over the game client.
 
-- real-time telemetry ingestion from localhost APIs
-- persistent state recovery across app restarts
-- transparent always-on-top desktop overlay
-- multi-monitor UI behavior and hotkey control
-- auto-update launcher and release pipeline
-- live usage metrics from real users
+* **In-game stats parsing:** continuous tracking of aircraft flight parameters via localhost web loops.
+* **Match state persistence:** automatically saves user configuration and overlay positioning across app restarts.
+* **Heads-up display (HUD):** fully customizable, transparent always-on-top desktop overlay that runs seamlessly alongside the game client.
+* **Multi-monitor support:** robust display layout management and global hotkey bindings for toggle controls.
+* **Convenient launcher:** integrated auto-update pipeline for hassle-free community distribution.
+* **Community-focused design:** optimized based on active user feedback and performance metrics to ensure zero frames-per-second (FPS) drop during gameplay.
 
 [![DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=DAU&color=brightgreen)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
 [![Total Events](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.total_events&label=Total%20Events&color=blue)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
