@@ -7,7 +7,7 @@
 **M.S. in Artificial Intelligence @ Columbia University**  
 **Inaugural Cohort · Fall 2026**
 
-**AI doesn’t replace thinking, it AmpiIfies.**
+**AI doesn’t replace thinking, it Amplifies.**
 
 [![Email](https://img.shields.io/badge/me@ruikang.wang-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@ruikang.wang)
 [![LinkedIn](https://img.shields.io/badge/ruikangwang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruikangwang/)
@@ -18,7 +18,8 @@
 
 ---
 
-## Current interests:
+## Current interests
+
 - **Agentic Coding Infrastructure** — task graphs, structured memory, multi-step coding workflows, and repo-aware agent tooling
 - **Context Engineering** — selecting, compressing, and routing project context under token, latency, and reliability constraints
 - **LLM Reliability & Evaluation** — traces, replayable workflows, failure analysis, regression tests, and agent observability
@@ -44,21 +45,39 @@ Contributed reliability and developer-experience improvements to a Go-based stru
 
 ## Featured Project
 
-### [Bomana](https://github.com/Thankyou-Cheems/Bomana) — Real-time desktop gaming telemetry and overlay system
+<div align="center">
 
-A Windows desktop companion application that reads localized in-game telemetry streams (such as aircraft flight and engine data via standard localhost web APIs), maintains active match states, and renders a low-latency, transparent overlay UI directly over the game client.
+### [Bomana](https://github.com/Thankyou-Cheems/Bomana) · War Thunder SB Timer
 
-* **In-game stats parsing:** continuous tracking of aircraft flight parameters via localhost web loops.
-* **Match state persistence:** automatically saves user configuration and overlay positioning across app restarts.
-* **Heads-up display (HUD):** fully customizable, transparent always-on-top desktop overlay that runs seamlessly alongside the game client.
-* **Multi-monitor support:** robust display layout management and global hotkey bindings for toggle controls.
-* **Convenient launcher:** integrated auto-update pipeline for hassle-free community distribution.
-* **Community-focused design:** optimized based on active user feedback and performance metrics to ensure zero frames-per-second (FPS) drop during gameplay.
+**战雷全真模式收益计时器**
 
-[![DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=DAU&color=brightgreen)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
-[![Total Events](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.total_events&label=Total%20Events&color=blue)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
-[![Launcher Starts](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.launcher_start_total&label=Launcher%20Starts&color=0A66C2)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
-[![App Release](https://img.shields.io/github/v/tag/Thankyou-Cheems/Bomana?sort=semver&filter=v*.*.*-app&label=release)](https://github.com/Thankyou-Cheems/Bomana/releases)
+War Thunder is a vehicle-combat video game; Bomana is a multifunction timer for simulator battles.<br>
+Terms like “bomb / bombing / CCRP” here mean **in-game virtual concepts only**, not anything in the real world. Have fun!
+
+War Thunder 是一款载具对战电子游戏；Bomana 是面向全真模式的多功能计时器。<br>
+文中的「炸弹 / 投弹 / CCRP」等均指**游戏内虚拟概念**，与现实无关。祝你玩得开心！
+
+<!-- Versions from EdgeOne CDN (what players actually get). GitHub "latest" is often a launcher-only tag. -->
+[![App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DEnhanced&query=%24.app_version&label=app&prefix=v&color=0ea5e9)](https://ruikang.wang/bomana/)
+[![Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=launcher&prefix=v&color=6366f1)](https://ruikang.wang/bomana/)
+[![DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=DAU&color=22c55e)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
+[![Launches](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.launcher_start_total&label=launches&color=3b82f6)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
+[![License](https://img.shields.io/badge/license-MIT-22c55e)](https://github.com/Thankyou-Cheems/Bomana/blob/main/LICENSE)
+
+**[Site / CDN](https://ruikang.wang/bomana/)** ·
+[GitHub Pages](https://thankyou-cheems.github.io/Bomana/) ·
+[Repo](https://github.com/Thankyou-Cheems/Bomana) ·
+[Releases](https://github.com/Thankyou-Cheems/Bomana/releases)
+
+</div>
+
+Open-source Windows companion for **War Thunder simulator battles**. It only reads the game’s official local `localhost:8111` HTTP data — no memory reads, injection, or game-file edits — and puts timer / navigation / fuel / overspeed cues in a lightweight always-on-top window (optional web cockpit on Enhanced).
+
+- **15-minute reward cycle timer** with clear combat-state awareness  
+- **Navigation & fuel cues** for zones / airfields and return-to-base planning  
+- **Overspeed & weapon-range hints** (including CCRP-style engineering estimates where applicable)  
+- **Signed portable launcher** with channel selection (Enhanced / Standard / Lite), auto-update, and rollback  
+- **China-friendly distribution** via Tencent EdgeOne CDN (`bomanaupdate.ruikang.wang`) with GitHub as backup  
 
 ---
 
