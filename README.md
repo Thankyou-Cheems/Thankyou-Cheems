@@ -68,12 +68,11 @@ Windows companion for War Thunder simulator battles, built around the game's off
 [![Public Downloads](https://img.shields.io/github/downloads/Thankyou-Cheems/Bomana/total?style=flat&logo=github&label=public%20downloads)](https://github.com/Thankyou-Cheems/Bomana/releases)
 <br>
 
-<!-- Platform, trust, and public distribution. -->
-[![Public License](https://img.shields.io/badge/public%20editions-MIT-22c55e?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat&logo=windows11&logoColor=white)](https://bomana.ruikang.wang/)
-[![Data Source](https://img.shields.io/badge/data%20source-localhost%3A8111-2563eb?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/PRIVACY.md)
-[![Signed Updates](https://img.shields.io/badge/updates-Ed25519%20signed-7c3aed?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/specs/release-signing.md)
-[![Public Delivery](https://img.shields.io/badge/public%20delivery-EdgeOne-0ea5e9?style=flat)](https://bomana.ruikang.wang/)
+<!-- Historical adoption: seven completed UTC days, coverage, reach, and launches. -->
+[![Recent 7d DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily%2Flist&query=%24.daily_stats%5B-8%3A-1%5D.metrics.dau_unique_device&label=recent%207d%20DAU&color=14b8a6&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily/list)
+[![DAU History](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily%2Flist&query=%24.total_days&label=DAU%20history&suffix=%20days&color=0ea5e9&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily/list)
+[![Unique Devices](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.total_unique_device&label=unique%20devices&color=8b5cf6&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
+[![App Launches](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.app_launch_total&label=app%20launches&color=6366f1&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
 
 **[Website & Download](https://bomana.ruikang.wang/)** ·
 [Public Source](https://github.com/Thankyou-Cheems/Bomana) ·
