@@ -47,37 +47,44 @@ Contributed reliability and developer-experience improvements to a Go-based stru
 
 <div align="center">
 
-### [Bomana](https://github.com/Thankyou-Cheems/Bomana) · War Thunder SB Timer
+<img src="https://raw.githubusercontent.com/Thankyou-Cheems/Bomana/main/bomana/assets/branding/app.png" width="96" alt="Bomana app icon">
 
-**战雷全真模式收益计时器**
+### [Bomana](https://github.com/Thankyou-Cheems/Bomana) · War Thunder Simulator Companion
 
-War Thunder is a vehicle-combat video game; Bomana is a multifunction timer for simulator battles.<br>
-Terms like “bomb / bombing / CCRP” here mean **in-game virtual concepts only**, not anything in the real world. Have fun!
+**战雷全真模式计时、导航与飞行辅助**
 
-War Thunder 是一款载具对战电子游戏；Bomana 是面向全真模式的多功能计时器。<br>
-文中的「炸弹 / 投弹 / CCRP」等均指**游戏内虚拟概念**，与现实无关。祝你玩得开心！
+Windows companion for War Thunder simulator battles, built around the game's official local
+`localhost:8111` HTTP interface — no memory reads, injection, game-file edits, or game-input automation.
 
-<!-- Versions from EdgeOne CDN (what players actually get). GitHub "latest" is often a launcher-only tag. -->
-[![App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DEnhanced&query=%24.app_version&label=app&prefix=v&color=0ea5e9)](https://ruikang.wang/bomana/)
-[![Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=launcher&prefix=v&color=6366f1)](https://ruikang.wang/bomana/)
-[![DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=DAU&color=22c55e)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
-[![Launches](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.launcher_start_total&label=launches&color=3b82f6)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
-[![License](https://img.shields.io/badge/license-MIT-22c55e)](https://github.com/Thankyou-Cheems/Bomana/blob/main/LICENSE)
+<!-- Public versions come from the live EdgeOne endpoints. Enhanced is intentionally not exposed there. -->
+[![Public App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DStandard&query=%24.app_version&label=public%20app&prefix=v&color=0ea5e9&style=flat-square&cacheSeconds=300)](https://bomana.ruikang.wang/)
+[![Public Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=public%20launcher&prefix=v&color=6366f1&style=flat-square&cacheSeconds=300)](https://bomana.ruikang.wang/)
+[![Enhanced](https://img.shields.io/badge/Enhanced-subscriber%20delivery-f59e0b?style=flat-square)](https://bomana.ruikang.wang/#channels)
+[![Product DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=product%20DAU&color=22c55e&style=flat-square&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
 
-**[Site / CDN](https://ruikang.wang/bomana/)** ·
-[GitHub Pages](https://thankyou-cheems.github.io/Bomana/) ·
-[Repo](https://github.com/Thankyou-Cheems/Bomana) ·
-[Releases](https://github.com/Thankyou-Cheems/Bomana/releases)
+**[Website & Download](https://bomana.ruikang.wang/)** ·
+[Public Source](https://github.com/Thankyou-Cheems/Bomana) ·
+[Releases](https://github.com/Thankyou-Cheems/Bomana/releases) ·
+[Privacy](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/PRIVACY.md)
+
+<sub>“Bomb / bombing / CCRP” refers only to in-game virtual mechanics.</sub>
 
 </div>
 
-Open-source Windows companion for **War Thunder simulator battles**. It only reads the game’s official local `localhost:8111` HTTP data — no memory reads, injection, or game-file edits — and puts timer / navigation / fuel / overspeed cues in a lightweight always-on-top window (optional web cockpit on Enhanced).
+### One product, two delivery boundaries
 
-- **15-minute reward cycle timer** with clear combat-state awareness  
-- **Navigation & fuel cues** for zones / airfields and return-to-base planning  
-- **Overspeed & weapon-range hints** (including CCRP-style engineering estimates where applicable)  
-- **Signed portable launcher** with channel selection (Enhanced / Standard / Lite), auto-update, and rollback  
-- **China-friendly distribution** via Tencent EdgeOne CDN (`bomanaupdate.ruikang.wang`) with GitHub as backup  
+| Open-source editions | Enhanced subscriber edition |
+| :--- | :--- |
+| **Lite / Standard** | **Super Bomb / Enhanced** |
+| Public source and release artifacts under the MIT License. | Maintained in a separate private repository with controlled subscriber delivery. |
+| Reward-cycle timer, navigation, fuel, and overspeed cues. | Adds offline terrain, weapon-reference estimates, and Web Cockpit. |
+| [Source](https://github.com/Thankyou-Cheems/Bomana) · [Public releases](https://github.com/Thankyou-Cheems/Bomana/releases) · [Docs](https://github.com/Thankyou-Cheems/Bomana#readme) | [Product details](https://bomana.ruikang.wang/#channels) · [Purchase / trial](https://pay.ruikang.wang/) |
+
+> **Unified product metric, separate delivery:** DAU intentionally aggregates public and Enhanced
+> editions. Source access, repositories, licensing, and release artifacts remain separate.
+
+Public Lite / Standard releases use Tencent EdgeOne for China-friendly delivery with GitHub fallback;
+Enhanced artifacts remain on subscriber-only infrastructure.
 
 ---
 
