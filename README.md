@@ -56,11 +56,24 @@ Contributed reliability and developer-experience improvements to a Go-based stru
 Windows companion for War Thunder simulator battles, built around the game's official local
 `localhost:8111` HTTP interface — no memory reads, injection, game-file edits, or game-input automation.
 
-<!-- Public versions come from the live EdgeOne endpoints. Enhanced is intentionally not exposed there. -->
-[![Public App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DStandard&query=%24.app_version&label=public%20app&prefix=v&color=0ea5e9&style=flat-square&cacheSeconds=300)](https://bomana.ruikang.wang/)
-[![Public Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=public%20launcher&prefix=v&color=6366f1&style=flat-square&cacheSeconds=300)](https://bomana.ruikang.wang/)
-[![Enhanced](https://img.shields.io/badge/Enhanced-subscriber%20delivery-f59e0b?style=flat-square)](https://bomana.ruikang.wang/#channels)
-[![Product DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=product%20DAU&color=22c55e&style=flat-square&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
+<!-- Release & access: public versions are live; Enhanced stays behind subscriber delivery. -->
+[![Public App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DStandard&query=%24.app_version&label=public%20app&prefix=v&color=0ea5e9&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/)
+[![Public Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=public%20launcher&prefix=v&color=6366f1&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/)
+[![Enhanced](https://img.shields.io/badge/Enhanced-subscriber%20delivery-f59e0b?style=flat)](https://bomana.ruikang.wang/#channels)
+<br>
+
+<!-- Adoption: DAU is intentionally unified across public and Enhanced editions. -->
+[![Product DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=product%20DAU&color=22c55e&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
+[![GitHub Stars](https://img.shields.io/github/stars/Thankyou-Cheems/Bomana?style=flat&logo=github&label=stars)](https://github.com/Thankyou-Cheems/Bomana)
+[![Public Downloads](https://img.shields.io/github/downloads/Thankyou-Cheems/Bomana/total?style=flat&logo=github&label=public%20downloads)](https://github.com/Thankyou-Cheems/Bomana/releases)
+<br>
+
+<!-- Platform, trust, and public distribution. -->
+[![Public License](https://img.shields.io/badge/public%20editions-MIT-22c55e?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat&logo=windows11&logoColor=white)](https://bomana.ruikang.wang/)
+[![Data Source](https://img.shields.io/badge/data%20source-localhost%3A8111-2563eb?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/PRIVACY.md)
+[![Signed Updates](https://img.shields.io/badge/updates-Ed25519%20signed-7c3aed?style=flat)](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/specs/release-signing.md)
+[![Public Delivery](https://img.shields.io/badge/public%20delivery-EdgeOne-0ea5e9?style=flat)](https://bomana.ruikang.wang/)
 
 **[Website & Download](https://bomana.ruikang.wang/)** ·
 [Public Source](https://github.com/Thankyou-Cheems/Bomana) ·
