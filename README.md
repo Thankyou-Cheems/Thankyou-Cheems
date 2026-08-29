@@ -47,18 +47,19 @@ Contributed reliability and developer-experience improvements to a Go-based stru
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Thankyou-Cheems/Bomana/main/bomana/assets/branding/app.png" width="96" alt="Bomana app icon">
+<img src="https://raw.githubusercontent.com/Thankyou-Cheems/Bomana/main/docs/assets/bomana-app.png" width="112" alt="Bomana app icon">
 
-### [Bomana](https://github.com/Thankyou-Cheems/Bomana) · War Thunder Simulator Companion
+### [Bomana](https://github.com/Thankyou-Cheems/Bomana) · War Thunder Simulator Browser Companion
 
-**战雷全真模式计时、导航与飞行辅助**
+**战雷全真模式计时、基础导航与 Enhanced 飞行辅助**
 
-Windows companion for War Thunder simulator battles, built around the game's official local
-`localhost:8111` HTTP interface — no memory reads, injection, game-file edits, or game-input automation.
+Browser-delivered companion with a small read-only Windows Bridge, built around War Thunder's
+official local `localhost:8111` HTTP interface — no memory reads, injection, game-file edits, or
+game-input automation.
 
-<!-- Release & access: public versions are live; Enhanced stays behind subscriber delivery. -->
-[![Public App](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fversion%3Fchannel%3DStandard&query=%24.app_version&label=public%20app&prefix=v&color=0ea5e9&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/)
-[![Public Launcher](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Flauncher&query=%24.launcher_version&label=public%20launcher&prefix=v&color=6366f1&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/)
+<!-- Current Browser + Bridge versions; Enhanced stays behind subscriber delivery. -->
+[![App Web](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomana.ruikang.wang%2Fapp%2Fapp-release.json&query=%24.app_web_version&label=App%20Web&prefix=v&color=0ea5e9&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/launcher/)
+[![Bridge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomana.ruikang.wang%2Fdownloads%2Fbridge-release.json&query=%24.bridge_version&label=Bridge&prefix=v&color=6366f1&style=flat&cacheSeconds=300)](https://bomana.ruikang.wang/launcher/)
 [![Enhanced](https://img.shields.io/badge/Enhanced-subscriber%20delivery-f59e0b?style=flat)](https://bomana.ruikang.wang/#channels)
 <br>
 
@@ -66,20 +67,14 @@ Windows companion for War Thunder simulator battles, built around the game's off
 [![Product DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily&query=%24.metrics.dau_unique_device&label=product%20DAU&color=22c55e&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily)
 [![GitHub Stars](https://img.shields.io/github/stars/Thankyou-Cheems/Bomana?style=flat&logo=github&label=stars)](https://github.com/Thankyou-Cheems/Bomana)
 [![Public Downloads](https://img.shields.io/github/downloads/Thankyou-Cheems/Bomana/total?style=flat&logo=github&label=public%20downloads)](https://github.com/Thankyou-Cheems/Bomana/releases)
-<br>
 
-<!-- Historical adoption: seven completed UTC days, coverage, reach, and launches. -->
-[![Recent 7d DAU](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily%2Flist&query=%24.daily_stats%5B-8%3A-1%5D.metrics.dau_unique_device&label=recent%207d%20DAU&color=14b8a6&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily/list)
-[![DAU History](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fdaily%2Flist&query=%24.total_days&label=DAU%20history&suffix=%20days&color=0ea5e9&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/daily/list)
-[![Unique Devices](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.total_unique_device&label=unique%20devices&color=8b5cf6&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
-[![App Launches](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbomanaupdate.ruikang.wang%2Fapi%2Fv1%2Fstats%2Fsummary&query=%24.metrics.app_launch_total&label=app%20launches&color=6366f1&style=flat&cacheSeconds=300)](https://bomanaupdate.ruikang.wang/api/v1/stats/summary)
-
-**[Website & Download](https://bomana.ruikang.wang/)** ·
+**[Website & Launch](https://bomana.ruikang.wang/launcher/)** ·
 [Public Source](https://github.com/Thankyou-Cheems/Bomana) ·
 [Releases](https://github.com/Thankyou-Cheems/Bomana/releases) ·
 [Privacy](https://github.com/Thankyou-Cheems/Bomana/blob/main/docs/PRIVACY.md)
 
-<sub>“Bomb / bombing / CCRP” refers only to in-game virtual mechanics.</sub>
+<sub>Bomana is an independent third-party project, not affiliated with or endorsed by Gaijin.
+“Bomb / bombing / CCRP” refers only to in-game virtual mechanics.</sub>
 
 </div>
 
@@ -87,16 +82,17 @@ Windows companion for War Thunder simulator battles, built around the game's off
 
 | Open-source editions | Enhanced subscriber edition |
 | :--- | :--- |
-| **Lite / Standard** | **Super Bomb / Enhanced** |
-| Public source and release artifacts under the MIT License. | Maintained in a separate private repository with controlled subscriber delivery. |
-| Reward-cycle timer, navigation, fuel, and overspeed cues. | Adds offline terrain, weapon-reference estimates, and Web Cockpit. |
+| **Lite / Standard** | **Enhanced** |
+| Lite is timer-only. Standard adds official-zone and airfield Basic Navigation, fuel, and checklists. | Adds tactical-map coordinates, terrain/elevation, airport modules, Y66 calibration, chat recognition, zone countdowns, and weapon solving. |
+| Browser App plus the read-only Windows Bridge; public source under the MIT License. | Uses the same read-only Bridge; subscriber App implementation, data, and delivery remain private. |
 | [Source](https://github.com/Thankyou-Cheems/Bomana) · [Public releases](https://github.com/Thankyou-Cheems/Bomana/releases) · [Docs](https://github.com/Thankyou-Cheems/Bomana#readme) | [Product details](https://bomana.ruikang.wang/#channels) · [Purchase / trial](https://pay.ruikang.wang/) |
 
-> **Unified product metric, separate delivery:** DAU intentionally aggregates public and Enhanced
-> editions. Source access, repositories, licensing, and release artifacts remain separate.
+> **Unified product metric, separate delivery:** the hosted Browser App counts one anonymous daily
+> active per browser across Lite, Standard, and Enhanced. Bridge does not report DAU and owns no
+> Edition or solver. Source access, repositories, licensing, and delivery remain separate.
 
-Public Lite / Standard releases use Tencent EdgeOne for China-friendly delivery with GitHub fallback;
-Enhanced artifacts remain on subscriber-only infrastructure.
+The online Launcher delivers the Browser App and Bridge; Enhanced authorization and private assets
+remain on subscriber-only infrastructure. Historical public releases stay available on GitHub.
 
 ---
 
